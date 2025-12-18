@@ -4,11 +4,16 @@
     .cabecalho{
         flex-direction: row;
         gap: 16px;
+        font-size: 20px;
     }
     .cabecalho-menu{
         margin-left: 15px;
         gap: 12px;
         justify-content: center;
+    }
+
+    .cabecalho-menu-item{
+        font-size: 16px;
     }
 
     .conteudo-principal{
@@ -26,8 +31,8 @@
     }
 
     .conteudo-principal-imagem{
-        height: auto;
         max-width: 80%;
+        height: 395px;
     }
 
     .conteudo-principal-escrito-botao{
