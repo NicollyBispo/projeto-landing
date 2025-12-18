@@ -1,8 +1,20 @@
 @charset "UFT-8";
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
+    .cabecalho{
+        flex-direction: row;
+        gap: 16px;
+    }
     .cabecalho-menu{
         margin-left: 15px;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .conteudo-principal{
+        flex-direction: row;
+        text-align: center;
+        padding: 20px;
     }
 
     .conteudo-principal-escrito-titulo{
@@ -13,7 +25,18 @@
         font-size: 20px;
     }
 
+    .conteudo-principal-imagem{
+        height: auto;
+        max-width: 80%;
+    }
+
     .conteudo-principal-escrito-botao{
         height: 45px;
+        margin: auto;
+    }
+
+    .conteudo-secundario-paragrafo{
+        padding-left: 20px;
+        text-align: center;
     }
 }
