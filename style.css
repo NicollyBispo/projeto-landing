@@ -133,4 +133,16 @@ body{
     .cabecalho-menu{
         margin-left: 15px;
     }
+
+    .conteudo-principal-escrito-titulo{
+        font-size: 30px;
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+        font-size: 20px;
+    }
+
+    .conteudo-principal-escrito-botao{
+        height: 45px;
+    }
 }
