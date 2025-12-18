@@ -1,6 +1,6 @@
 @charset "UFT-8";
 
-@media screen and (max-width:768px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .cabecalho{
         flex-direction: row;
         justify-content: flex-start;
@@ -14,13 +14,27 @@
     }
 
     .cabecalho-menu-item{
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .conteudo-principal{
         flex-direction: row;
         text-align: center;
         padding: 20px;
+    }
+
+    .conteudo-secundario{
+        margin-top: 24px;
+    }
+
+    .conteudo-secundario-paragrafo{
+        font-size: 20px;
+    }
+
+    .conteudo-secundario-titulo{
+        margin-top: 10px;
+        padding-top: 30px;
+        font-size: 20px;
     }
 
     .conteudo-principal-escrito-titulo{
