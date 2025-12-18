@@ -1,6 +1,9 @@
 @charset "UFT-8";
 
 @media screen and (max-width: 600px) {
+    body{
+        background: #724b42;
+    }
     .cabecalho{
         flex-direction: row;
         justify-content: flex-start;
@@ -15,6 +18,7 @@
 
     .cabecalho-menu-item{
         font-size: 20px;
+        margin-left: 7px;
     }
 
     .conteudo-principal{
@@ -46,12 +50,12 @@
     }
 
     .conteudo-principal-imagem{
-        max-width: 80%;
+        max-width: 65%;
         height: 395px;
     }
 
     .conteudo-principal-escrito-botao{
-        height: 45px;
+        height: 35px;
         margin: auto;
     }
 
