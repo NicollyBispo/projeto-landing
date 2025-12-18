@@ -128,3 +128,9 @@ body{
     display: block;
     margin: auto;
 }
+
+@media screen and (max-width:600px) {
+    .cabecalho-menu{
+        margin-left: 15px;
+    }
+}
